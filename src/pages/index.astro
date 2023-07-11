@@ -35,31 +35,31 @@ const projects = (await getCollection('work'))
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em"/> Developer</Pill>
+						<Pill><Icon icon="puzzle" size="1.33em"/>Puzzler</Pill>
+						<Pill><Icon icon="cookie" size="1.33em"/>Foodie</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Cute robot in the garden"
+					alt="Lakshita Headshot"
 					width="400"
 					src="/assets/Headshot.jpg"
 				/>
 			</header>
 
-			<Skills />
+			<!-- <Skills /> -->
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Projects</h3>
+					<p>Take a look below at some projects I have worked on in the past few years.</p>
 				</header>
 
 				<div class="gallery">
-					<Grid variant="offset">
+					<Grid variant="small">
 						{
 							projects.map((project) => (
 								<li>
@@ -78,7 +78,7 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
+			<!-- <section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mentions</h3>
 					<p>
@@ -99,7 +99,7 @@ const projects = (await getCollection('work'))
 					</Grid>
 				</div>
 			</section>
-		</main>
+		</main> -->
 
 		<ContactCTA />
 	</div>
