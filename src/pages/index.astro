@@ -31,13 +31,13 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Lakshita Jain"
-					tagline="I am a rising sophomore at the Tufts University School of Engineering with a major in Computer Science and Economics."
+					tagline="Student @ Tufts University interested in Software Engineering and Machine Learning"
 					align="start"
 				>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em"/> Developer</Pill>
-						<Pill><Icon icon="puzzle" size="1.33em"/>Puzzler</Pill>
-						<Pill><Icon icon="cookie" size="1.33em"/>Foodie</Pill>
+						<Pill><Icon icon="puzzle" size="1.33em"/>Jigsaw Master</Pill>
+						<Pill><Icon icon="cookie" size="1.33em"/>Cookie Monster</Pill>
 					</div>
 				</Hero>
 
@@ -48,7 +48,7 @@ const projects = (await getCollection('work'))
 				/>
 			</header>
 
-			<!-- <Skills /> -->
+			<Skills />
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
@@ -59,7 +59,7 @@ const projects = (await getCollection('work'))
 				</header>
 
 				<div class="gallery">
-					<Grid variant="small">
+					<Grid variant="large">
 						{
 							projects.map((project) => (
 								<li>
