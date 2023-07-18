@@ -8,7 +8,7 @@ interface Props {
 const { data, slug } = Astro.props.project;
 ---
 
-<a class="card" href={`/work/${slug}`}>
+<a class="card" href={`/projects/${slug}`}>
 	<span class="title">{data.title}</span>
 	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
 </a>
@@ -25,7 +25,7 @@ const { data, slug } = Astro.props.project;
 		box-shadow: var(--shadow-sm);
 		text-decoration: none;
 		font-family: var(--font-brand);
-		font-size: var(--text-lg);
+		font-size: var(--text-xl);
 		font-weight: 500;
 		transition: box-shadow var(--theme-transition);
 	}
@@ -37,7 +37,7 @@ const { data, slug } = Astro.props.project;
 	.title {
 		grid-area: 1 / 1 / 2 / 2;
 		z-index: 1;
-		margin: 0.5rem;
+		margin: 2rem;
 		padding: 0.5rem 1rem;
 		background: var(--gray-999);
 		color: var(--gray-200);
