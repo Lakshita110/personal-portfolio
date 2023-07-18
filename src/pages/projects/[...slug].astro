@@ -36,7 +36,7 @@ const { Content } = await entry.render();
 					<Hero title={entry.data.title} align="start">
 						<div class="details">
 							<div class="tags">
-								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
+								{entry.data.tags.map((t: unknown) => <Pill>{t}</Pill>)}
 							</div>
 							<p class="description">{entry.data.description}</p>
 						</div>
@@ -45,7 +45,7 @@ const { Content } = await entry.render();
 			</header>
 			<main class="wrapper">
 				<div class="stack gap-10 content">
-					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					<!-- {entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />} -->
 					<div class="content">
 						<Content />
 					</div>

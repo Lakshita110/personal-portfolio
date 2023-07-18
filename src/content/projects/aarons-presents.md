@@ -1,35 +1,25 @@
 ---
 title: Aaron's Presents
-publishDate: 2020-03-02 00:00:00
+publishDate: 2023-07-18 00:00:00
 img: /assets/abstract-2.jpeg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Abstract digital beige art
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Mobile app for the non-profit organization Aaron's presents which allows mentors and parents to manage children's volunteer activities.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Mobile App
+  - React Native
+  - Client-Driven
 ---
 
-## Level-two heading
+#### Overview
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+Every year, JumboCode finds news non-profits to support through teams of developers working on a project for them. This year, I applied to be a part of a project working with the non-profit <a href="https://www.aaronspresents.org/">Aaron's Presents</a>. 
+"Aaron’s Presents is a 501(c)(3) non-profit that offers hands-on, individualized mentoring, materials/services, and logistical help to any child in 8th grade or below who want to carry out an idea that benefits at least one other person, animal, and/or the environment."
+Having worked in teaching settings before with children, I found this to be an amazing initiative and was excited to be a part of this team.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+Our project was to build a mobile app that allows mentors allows mentors to manage the Aaron’s Presents data from their phones. We worked in a team of 10 people to create the final product, more information about which can be found <a href="https://jumbocode.org/work/aarons-presents"> here</a>. 
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
-
-### Level-three heading
-
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
-
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+#### Tech Stack
+The app was built using:
+- Expo 
+- React Native
