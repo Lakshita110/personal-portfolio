@@ -17,7 +17,7 @@ Every year, JumboCode finds news non-profits to support through teams of develop
 "Aaron’s Presents is a 501(c)(3) non-profit that offers hands-on, individualized mentoring, materials/services, and logistical help to any child in 8th grade or below who want to carry out an idea that benefits at least one other person, animal, and/or the environment."
 Having worked in teaching settings before with children, I found this to be an amazing initiative and was excited to be a part of this team.
 
-Our project was to build a mobile app that allows mentors allows mentors to manage the Aaron’s Presents data from their phones. We worked in a team of 10 people to create the final product, more information about which can be found <a href="https://jumbocode.org/work/aarons-presents"> here</a>. 
+Our project was to build a mobile app that allows mentors to manage the Aaron’s Presents data from their phones. We worked in a team of 10 people to create the final product, more information about which can be found <a href="https://jumbocode.org/work/aarons-presents"> here</a>. 
 
 #### Tech Stack
 The app was built using:
