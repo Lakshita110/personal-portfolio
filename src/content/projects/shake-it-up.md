@@ -20,3 +20,6 @@ The website was built and deployed using:
 - Ruby on Rails
 - Bootstrap Studio 
 - Heroku
+
+#### Code
+Link to Github Repo: <a href="https://github.com/marty-m/shake-it-up">Here!</a>
