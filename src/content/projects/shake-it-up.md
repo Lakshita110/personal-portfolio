@@ -23,3 +23,7 @@ The website was built and deployed using:
 
 #### Code
 Link to Github Repo: <a href="https://github.com/marty-m/shake-it-up">Here!</a>
+
+#### Images
+<img src="/assets/ShakeItUp-homepage.png" alt="A starry night sky.">
+<img src="/assets/ShakeItUp-cocktail.png" alt="A starry night sky.">
