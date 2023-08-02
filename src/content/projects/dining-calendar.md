@@ -29,5 +29,5 @@ The program was built and deployed using:
 Link to Github Repo: <a href="https://github.com/Lakshita110/tufts-dining-calendar">Here!</a>
 
 #### Images
-<img src="/assets/Calendar-event.png" alt="A Google Calendar event of the Tufts dining menu">
-<img src="/assets/Calendar-CLI.png" alt="Screenshot of the command line">
+<img src="/assets/calendar-event.png" alt="A Google Calendar event of the Tufts dining menu">
+<img src="/assets/calendar-cli.png" alt="Screenshot of the command line">
